@@ -1,0 +1,25 @@
+header h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+div.image-card {
+  border: 1px solid #000;
+  text-align: center;
+  margin-top: 3%;
+}
+
+div.image-card:hover {
+  outline: 2px solid #ff00d4;
+  outline-offset: 4px;
+  border-radius: 4px;
+  background-color: aqua;
+}
+
+section.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 5px;
+}
