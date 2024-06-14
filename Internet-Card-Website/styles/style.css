@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav.primary-navbar {
+  background-color: #102754;
+  max-width: 85%;
+  margin: 3% auto;
+  padding: 13px 16px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+
+a.logo-link {
+  margin-right: 5%;
+}
+
+div.navbar-links {
+  font-size: 18px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+div.navbar-links .links-part-one a {
+  margin-right: 20px;
+}
+
+div.navbar-links a.active {
+  color: #21c98b;
+}
+
+a.get-the-card-btn {
+  margin-left: 40px;
+  padding: 2px 28px;
+  background-color: #21c98b;
+  border-radius: 10px;
+}
+
+/* create share advance section starts here */
+div.csa-section .green-color {
+  color: #21c98b;
+}
+
+div.csa-section {
+  max-width: 95%;
+  margin: auto;
+}
+
+div.csa-section h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-left: 5%;
+}
+
+div.csa-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.csa-card {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5% 1.5%;
+  margin: 2%;
+  background-color: #f5f5f5;
+  /* We should not use width for childs elements inside flex element/container instead we can use flex-basis */
+  /* min-width: 344px; */
+  flex-basis: 344px;
+  border-radius: 26px;
+  box-shadow: 0 2px 3px 0 #e6e1e1;
+}
+
+div.csa-card img {
+  width: 40px;
+}
+/* create share advance section ends here */
+
+/* footer section starts here */
+footer {
+  max-width: 80%;
+  margin: 5% auto 0;
+  color: #fff;
+  background: #102754;
+  padding: 2% 4%;
+  border-radius: 12px;
+  background-image: url("../assets/footer-background-theme.5d3752113565d7e8dff4.png");
+  background-repeat: no-repeat;
+}
+
+section.feedback-section h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0 0 0.5rem;
+}
+
+div.row1 {
+  display: flex;
+  padding: 3% 0 2%;
+}
+
+form {
+  flex-grow: 1;
+}
+
+div.row1-title h2 {
+  font-size: 48px;
+  margin: 0;
+}
+
+div.row1-title {
+  max-width: 40%;
+}
+
+div.feedback-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+
+form input {
+  padding: 0 10px;
+  border-radius: 5px;
+  height: 43px;
+  width: 250px;
+  font-size: 16px;
+}
+
+form textarea {
+  width: 250px;
+  height: 112px;
+  padding: 10px 10px 0;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+div.email-phone {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+div.textarea-and-send-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+a.send-btn {
+  padding: 8px 30px;
+  border: 1px solid #22c98b;
+  margin-top: 14px;
+  border-radius: 4px;
+  color: #22c98b;
+}
+
+section.copy-rights {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 0 0;
+}
+
+section.copy-rights h3 {
+  margin: 0;
+}
+
+div a.terms-margin {
+  margin-right: 5px;
+}
+
+section.copy-rights .green-color,
+section.copy-rights .green-color a {
+  color: #21c98b;
+}
+
+div.follow-us {
+  display: flex;
+  align-items: center;
+}
+
+div.follow-us h3 {
+  margin-right: 16px;
+}
+
+div div.social-media-icons a img {
+  width: 33px;
+  margin-right: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* footer section ends here */
