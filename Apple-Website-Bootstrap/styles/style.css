@@ -1,0 +1,119 @@
+a {
+  text-decoration: none;
+}
+
+/* Airpods comparison section starts here */
+section.airpods-comparison-section {
+  background-color: #f5f5f7;
+  padding: 5% 0;
+}
+
+div.airpods-compare {
+  max-width: 65%;
+}
+
+div.airpods-compare-cards {
+  /* padding-bottom: 25px; */
+  max-width: 208px;
+  /* border-bottom: 1px solid #d2d2d7; */
+}
+
+div.airpods-compare-cards p {
+  max-width: 71%;
+  margin: auto;
+}
+
+div.airpods-compare-cards div.h4-and-p {
+  min-height: 71px;
+}
+
+div.airpods-compare-cards div.h4-and-p h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+div.airpods-compare-cards div.h4-and-p p {
+  font-size: 14px;
+  margin-top: 0;
+  max-width: 60%;
+}
+
+div.airpods-compare-cards div.image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 235px;
+}
+
+div.airpods-compare-cards div.compare-card-description {
+  margin-top: 50px;
+}
+
+div.compare-card-description {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #d2d2d7;
+}
+
+div.compare-card-description p {
+  font-size: 17px;
+  margin-top: 0.8rem;
+}
+
+/* div.airpods-compare-container div.for-gap {
+  column-gap: 10px;
+} */
+
+div h2.ac-title {
+  font-size: 64px;
+  font-weight: 700;
+  max-width: 74%;
+  margin: auto;
+  padding: 4% 0 4%;
+  /* text-align: center; */
+}
+
+div.compare-card-description a.buy-btn {
+  display: inline-block;
+  margin-top: 0.8rem;
+  padding: 4px 11px;
+  background-color: #0071e3;
+  color: #ffffff;
+  border-radius: 16px;
+  line-height: 1.3;
+  font-size: 12px;
+}
+
+div.compare-card-description a {
+  display: block;
+  margin-top: 0.4rem;
+  color: #06c;
+}
+
+div.compare-card-description a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+div.airpods-compare-cards div p {
+  font-size: 14px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+div span.dash {
+  display: inline-block;
+  background: #000;
+  width: 15px;
+  height: 2px;
+}
+
+div.airpods-compare-cards div {
+  min-height: 155px;
+}
+
+div.airpods-compare-cards div.dash-container span {
+  margin-top: 24px;
+}
+
+/* Airpods comparison section ends here */
