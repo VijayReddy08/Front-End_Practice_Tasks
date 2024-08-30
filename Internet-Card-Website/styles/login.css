@@ -1,0 +1,94 @@
+/* login image section starts here */
+div.login-description-container h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+span.green-color-span {
+  color: #21c98b;
+}
+/* login image section ends here */
+
+/* login-form-section starts here */
+div.login-form-section {
+  background-color: #e6e6e6;
+  color: #112654;
+  padding: 15% 15% 2% 15%;
+  max-width: 95%;
+}
+
+div.login-form-section form input {
+  padding: 2% 6%;
+  font-weight: 300;
+}
+
+p.privacy-statement {
+  font-size: small;
+}
+
+a.forgot-password {
+  font-size: 14px;
+  color: #102754;
+}
+
+button.sign-in-btn {
+  background: #21c98b;
+  font-size: 20px;
+}
+
+button.sign-in-btn:hover,
+div.login-form-section form button.sign-in-btn:active {
+  background: #21c98b;
+}
+
+button.login-with-google {
+  background-color: #e6e6e6;
+  padding: 3%;
+  border: 1px solid #f15c4f;
+}
+
+button.login-with-google:hover {
+  border: 1px solid #f15c4f;
+}
+
+button.login-with-google h2 {
+  color: #f15c4f;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+p.new-member {
+  font-size: 17px;
+}
+
+p.new-member a {
+  font-weight: 700;
+  color: #102754;
+}
+
+/* login-form-section ends here */
+
+/* sign up form section starts here */
+div.signup-form-section {
+  background-color: #e6e6e6;
+  color: #112654;
+  padding: 10% 10% 2% 10%;
+}
+
+div.signup-form-section form input {
+  padding: 2% 5%;
+  font-weight: 300;
+}
+
+button.sign-up-btn {
+  background: #21c98b;
+  padding: 1% 8%;
+  font-size: 17px;
+}
+
+button.sign-up-btn:hover,
+button#sign-up-btn:active {
+  background: #21c98b;
+}
+
+/* sign up form section ends here */

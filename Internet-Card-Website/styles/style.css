@@ -48,6 +48,11 @@ a.get-the-card-btn {
   border-radius: 10px;
 }
 
+a.get-the-card-btn:hover {
+  display: inline-block;
+  transform: scaleX(1.1);
+}
+
 /* create share advance section starts here */
 div.csa-section .green-color {
   color: #21c98b;
